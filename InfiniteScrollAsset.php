@@ -17,7 +17,7 @@ class InfiniteScrollAsset extends AssetBundle
     public $css = [
     ];
     public $js = [
-        '/dist/infinite-scroll.pkgd.min.js'
+        'dist/infinite-scroll.pkgd.min.js'
     ];
     public $depends = [
         'yii\web\JqueryAsset',
