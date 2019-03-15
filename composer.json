@@ -1,27 +1,29 @@
 {
-    "name": "diazoxide/yii2-infinite-scroll",
-    "description": "Yii2 extension for infinite-scroll jQuery plugin",
-    "keywords": [
-        "yii2",
-        "infinite-scroll",
-        "widget",
-        "jQuery",
-        "plugin"
-    ],
-    "type": "yii2-extension",
-    "license": "MIT",
-    "authors": [
-        {
-            "name": "Diazoxide"
-        }
-    ],
-    "require": {
-        "yiisoft/yii2": "*",
-        "bower-asset/infinite-scroll": "*"
-    },
-    "autoload": {
-        "psr-4": {
-            "diazoxide\\infinitescroll\\": ""
-        }
+  "name": "diazoxide/yii2-infinite-scroll",
+  "description": "Yii2 extension for infinite-scroll jQuery plugin",
+  "type": "yii2-extension",
+  "keywords": [
+    "yii2",
+    "infinite-scroll",
+    "widget",
+    "jQuery",
+    "plugin"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Diazoxide",
+      "email": "diazoxide@gmail.com"
     }
+  ],
+  "require": {
+    "yiisoft/yii2": "*",
+    "bower-asset/infinite-scroll": "*"
+  },
+  "repositories": [],
+  "autoload": {
+    "psr-4": {
+      "diazoxide\\infinitescroll\\": ""
+    }
+  }
 }
