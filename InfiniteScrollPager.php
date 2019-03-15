@@ -119,6 +119,8 @@ class InfiniteScrollPager extends Widget
     public function init()
     {
         parent::init();
+        InfiniteScrollAsset::register($this->getView());
+
         if ($this->pagination === null) {
             throw new InvalidConfigException('The "pagination" property must be set.');
         }
